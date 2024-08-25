@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #1a1d23;
+  --purple: #7e22ce;
+  --header-purple: #5B21B6;
+  --purple-dark: #6b21a8;
+  --white: #ffffff;
+
+  --font: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+body {
+  margin: 0 !important;
+}

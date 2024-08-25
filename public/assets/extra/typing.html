@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Age Effect</title>
+    <style>
+      body {
+        background: transparent;
+        font-family: 'Fira Code', monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .window {
+        background: #2e3440;
+        border-radius: 10px;
+        width: 450px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      }
+
+      .window-header {
+        display: flex;
+        align-items: center;
+        padding: 8px;
+        background: #3b4252;
+        border-radius: 10px 10px 0 0;
+      }
+
+      .window-header .button {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        margin-right: 8px;
+      }
+
+      .window-header .button.red {
+        background-color: #ff5f56;
+      }
+
+      .window-header .button.yellow {
+        background-color: #ffbd2e;
+      }
+
+      .window-header .button.green {
+        background-color: #27c93f;
+      }
+
+      .code-container {
+        background: #2e3440;
+        padding: 20px;
+        border-radius: 8px;
+        color: #d8dee9;
+        font-size: 16px;
+        line-height: 1.5;
+        white-space: pre-wrap;
+      }
+
+      .code {
+        display: inline-block;
+      }
+
+      .cursor {
+        border-right: 2px solid rgba(255, 255, 255, .75);
+        animation: blink-caret 0.75s step-end infinite;
+      }
+
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: rgba(255, 255, 255, .75); }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="window">
+      <div class="window-header">
+        <div class="button red"></div>
+        <div class="button yellow"></div>
+        <div class="button green"></div>
+      </div>
+      <div class="code-container">
+        <div class="code">? How old are you? > <span id="typing"></span><span class="cursor"></span></div>
+      </div>
+    </div>
+
+    <script>
+      function getRandomAge() {
+        return Math.floor(Math.random() * (43 - 18 + 1)) + 18;
+      }
+
+      function typeAndDelete(element, text, callback) {
+        let index = 0;
+        let deleteIndex = text.length;
+
+        function type() {
+          if (index < text.length) {
+            element.textContent += text[index];
+            index++;
+            setTimeout(type, 150);
+          } else {
+            setTimeout(deletePartial, 500);
+          }
+        }
+
+        function deletePartial() {
+          if (deleteIndex > 0) {
+            element.textContent = text.slice(0, deleteIndex - 1);
+            deleteIndex--;
+            setTimeout(deletePartial, 100);
+          } else {
+            callback();
+          }
+        }
+
+        type();
+      }
+
+      function startTyping() {
+        const element = document.getElementById('typing');
+        const age = getRandomAge().toString();
+        const partialAge = age.length === 2 ? age[0] : '';
+
+        typeAndDelete(element, partialAge, () => {
+          typeAndDelete(element, age, () => {
+            setTimeout(startTyping, 2000);
+          });
+        });
+      }
+
+      startTyping();
+    </script>
+  </body>
+</html>
