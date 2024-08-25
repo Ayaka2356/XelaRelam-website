@@ -9,7 +9,7 @@ function App({ Component, pageProps }: AppProps) {
     const pathname = pageProps.__NEXT_DATA__?.page || '/';
     const pageTitle = pathname.charAt(1).toUpperCase() + pathname.slice(2) || 'Home';
     const title = `${pageTitle} | XelaRelam Coding Community`;
-    const canonical = `https://lynnux.xyz${pathname}`;
+    const canonical = `https://xelarelam.vercel.app/${pathname}`;
     const is404Page = pathname === '/404';
     const isHomePage = pathname === '/';
 
@@ -28,7 +28,7 @@ function App({ Component, pageProps }: AppProps) {
                         <meta name="description" content={mainDescription} />
 
                         {/* Discord Embed */}
-                        <meta property="og:site_name" content="https://SOON-tm/" />
+                        <meta property="og:site_name" content="https://xelarelam.vercel.app/" />
                         <meta property="og:title" content="XelaRelam Coding Community" />
                         <meta property="og:url" content={canonical} />
                         <meta property="og:type" content="website" />
@@ -46,7 +46,7 @@ function App({ Component, pageProps }: AppProps) {
                         <meta name="description" content={mainDescription} />
 
                         {/* Discord Embed */}
-                        <meta property="og:site_name" content="https://SOON-tm/" />
+                        <meta property="og:site_name" content="https://xelarelam.vercel.app/" />
                         <meta property="og:title" content="XelaRelam Coding Community" />
                         <meta property="og:url" content={canonical} />
                         <meta property="og:type" content="website" />
@@ -64,7 +64,7 @@ function App({ Component, pageProps }: AppProps) {
                         <meta name="description" content={mainDescription} />
 
                         {/* Discord Embed */}
-                        <meta property="og:site_name" content="https://lynnux.xyz/" />
+                        <meta property="og:site_name" content="https://xelarelam.vercel.app/" />
                         <meta property="og:title" content={title} />
                         <meta property="og:type" content="website" />
                         <meta property="og:description" content={mainDescription} />
