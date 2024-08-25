@@ -13,7 +13,7 @@ function App({ Component, pageProps }: AppProps) {
     const is404Page = pathname === '/404';
     const isHomePage = pathname === '/';
 
-    const mainDescription = "Hi there i'm lynn and i am a passionate Discord bot developer and website developer with experience in various programming languages such as Python, JavaScript, and HTML/CSS. I love creating new projects and bringing ideas to life through code or art. I'm constantly learning and exploring new technologies to improve my skills and provide better solutions for my users. I believe that good communication and attention to detail are essential in creating successful projects. Let's work together to create something amazing!"
+    const mainDescription = "Join our community today and experience the ultimate Discord experience! Get access to exclusive features, support, and resources."
 
     return (
         <>
@@ -21,7 +21,7 @@ function App({ Component, pageProps }: AppProps) {
             {is404Page ? (
                     <>
                         <title>404 | XelaRelam Coding Community</title>
-                        <meta property="og:title" content="404 | XelaRelam Coding Community" />
+                        <meta property="og:title" content="XelaRelam Coding Community" />
                         <link rel="canonical" href={canonical} />
                         <meta property="og:site_name" content={canonical} />
                         <meta property="og:description" content={mainDescription} />
@@ -37,9 +37,9 @@ function App({ Component, pageProps }: AppProps) {
 
                     </>
                 ) : isHomePage ? (
-                  <>
+                    <>
                         <title>Home | XelaRelam Coding Community</title>
-                        <meta property="og:title" content="404 | XelaRelam Coding Community" />
+                        <meta property="og:title" content="XelaRelam Coding Community" />
                         <link rel="canonical" href={canonical} />
                         <meta property="og:site_name" content={canonical} />
                         <meta property="og:description" content={mainDescription} />
@@ -53,7 +53,7 @@ function App({ Component, pageProps }: AppProps) {
                         <meta property="og:description" content={mainDescription}/>
                         <meta name="theme-color" content="#00ffff" />
 
-                  </>
+                    </>
                 ) : (
                     <>
                         <title>{title}</title>
