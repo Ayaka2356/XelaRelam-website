@@ -29,7 +29,7 @@ const Navbar = () => {
             <p className="text-white hover:text-gray-300">Contributors</p>
           </Link>
           <Link href="https://discord.gg/FCGn8B58jh"  target="_blank" rel="noopener noreferrer">
-            <p className="text-white hover:text-gray-300">support</p>
+            <p className="text-white hover:text-gray-300">Support</p>
           </Link>
         </div>
         <div className="md:hidden">
