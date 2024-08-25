@@ -23,7 +23,7 @@ export default function Index() {
               </div>
             </div>
           </section>
-          <section className="bg-gray-900 p-4">
+          <section className={`uwu bg-gray-900 p-4`}>
             <div className="container mx-auto flex justify-center">
               <div className="text-center">
                 <h2 className="text-3xl font-bold font-mono text-purple-800">Features</h2>
