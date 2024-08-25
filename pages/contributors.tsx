@@ -13,7 +13,7 @@ export default function Index() {
           <div className="container mx-auto flex justify-center">
             <div className="text-center">
               <h2 className="text-3xl font-bold font-mono text-purple-800">Contributors</h2>
-              <p className="text-lg font-sans">Meet the amazing contributors who helped make our community better!</p>
+              <p className="text-lg font-sans">Meet the amazing contributors who helped making our community better!</p>
               <div className="flex flex-wrap justify-center">
                 <div className="w-full md:w-1/3 xl:w-1/3 p-4">
                   <Image src="/assets/images/contributor1.png" alt="ayaka068198" width={200} height={200} className="w-24 h-24 rounded-full mx-auto"/>
