@@ -1,7 +1,0 @@
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=application%2Fx-sh&width=677&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2524title%255BPong%21%255D%250A%2524description%255BYour%2520bot%2520is%2520%2524pingms%255D%250A%2524footer%255BAwesome%21%255D%250A%2524color%255B7C3AED%255D%250A%250A%250A%250A&tb=index.js"
-  style="width: 677px; height: 320px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-
-https://carbon.now.sh/?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=application%2Fx-sh&width=677&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2524title%255BPong%21%255D%250A%2524description%255BYour%2520bot%2520is%2520%2524pingms%255D%250A%2524footer%255BAwesome%21%255D%250A%2524color%255B7C3AED%255D%250A%250A%250A%250A&tb=index.js

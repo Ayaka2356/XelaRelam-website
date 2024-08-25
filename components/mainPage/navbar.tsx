@@ -28,7 +28,7 @@ const Navbar = () => {
           <Link href="/contributors">
             <p className="text-white hover:text-gray-300">Contributors</p>
           </Link>
-          <Link href="/support">
+          <Link href="https://discord.gg/FCGn8B58jh"  target="_blank" rel="noopener noreferrer">
             <p className="text-white hover:text-gray-300">support</p>
           </Link>
         </div>
@@ -51,7 +51,7 @@ const Navbar = () => {
           <Link href="/contributors">
             <p className="block text-white hover:text-gray-300 mt-2">Contributors</p>
           </Link>
-          <Link href="/support">
+          <Link href="https://discord.gg/FCGn8B58jh" about="_blank" rel="noopener noreferrer">
             <p className="block text-white hover:text-gray-300 mt-2">Support</p>
           </Link>
         </div>

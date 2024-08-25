@@ -1,0 +1,28 @@
+.iframe {
+  width: 646px;
+  height: 375px;
+  border: 0;
+  transform-origin: 5 5;
+  transform: scale(1);
+  overflow: hidden;
+}
+
+.bdfd {
+  height: 370px;
+}
+
+.aoi {
+  height: 570px;
+}
+
+.fs {
+  height: 350px;
+}
+
+.py {
+  height: 770px;
+}
+
+.djs {
+  height: 850px;
+}

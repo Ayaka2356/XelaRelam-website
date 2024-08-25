@@ -22,9 +22,9 @@ class MyDocument extends Document {
                     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png" />
                     <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon/android-chrome-192x192.png" />
                     <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon/android-chrome-512x512.png" />
-                    <link rel="manifest" href="/site.webmanifest"/>
+                    <link rel="manifest" href="/assets/favicon/site.webmanifest"/>
                 </Head>
-                <body>
+                <body className='bg-gray-900 text-white'>
                     <Main />
                     <NextScript />
                 </body>

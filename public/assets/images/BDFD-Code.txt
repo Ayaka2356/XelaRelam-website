@@ -1,7 +1,0 @@
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=application%2Fx-sh&width=646&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2524nomention%250A%2524title%255BPoll%2520Time%21%255D%250A%2524onlyAdmin%255BOnly%2520Admins%252FModerators%2520can%2520use%2520this%2520command%21%255D%250A%2524addReactions%255B%25F0%259F%2591%258D%253B%25F0%259F%2591%258E%255D%250A%2524description%255B%2524message%255D%250A%2524footer%255B%25F0%259F%2591%258D%2520You%2520like%2520it%2520-%2520%25F0%259F%2591%258E%2520You%2520dont%2520like%2520it%255D%250A%250A%250A&tb="
-  style="width: 646px; height: 338px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-
-https://carbon.now.sh/?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=none&l=application%2Fx-sh&width=646&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2524nomention%250A%2524title%255BPoll%2520Time%21%255D%250A%2524onlyAdmin%255BOnly%2520Admins%252FModerators%2520can%2520use%2520this%2520command%21%255D%250A%2524addReactions%255B%25F0%259F%2591%258D%253B%25F0%259F%2591%258E%255D%250A%2524description%255B%2524message%255D%250A%2524footer%255B%25F0%259F%2591%258D%2520You%2520like%2520it%2520-%2520%25F0%259F%2591%258E%2520You%2520dont%2520like%2520it%255D%250A%250A%250A&tb=
