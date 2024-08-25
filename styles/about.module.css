@@ -66,3 +66,12 @@
   font-weight: bold;
   margin-right: 10px;
 }
+
+@media (min-width: 770px) {
+
+  .footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+}

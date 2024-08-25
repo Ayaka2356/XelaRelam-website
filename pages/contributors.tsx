@@ -37,7 +37,7 @@ export default function Index() {
           </div>
         </section>
       </main>
-      <div className="absolute w-full bottom-0">
+      <div className={styles.footer}>
         <Footer/>
       </div>
     </>
